@@ -1,0 +1,155 @@
+{
+  "id": "3029a12b-26ea-4f60-943c-334f6535d4c2",
+  "version": "2.0",
+  "name": "neubau suche neu",
+  "url": "https://www.neubauprojekte.ch",
+  "tests": [{
+    "id": "4179591f-96b6-4883-97ad-0dd105312755",
+    "name": "Neubau Suche neu",
+    "commands": [{
+      "id": "1d82a6c5-acde-4ada-ba82-1c2786f8a5f1",
+      "comment": "",
+      "command": "open",
+      "target": "/kaufen/?alternate=true&exclusive=false&ignoreToplisting=false&mainCategory=apartment_and_house&numberOfRoomsFrom=0&numberOfRoomsTo=10&offerType=sale&orderBy=created&order=desc&page=1&priceFrom=0&priceTo=25000000&radius=5&surfaceLivingFrom=0&surfaceLivingTo=300&type=all",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f5ad387-92b1-4547-af60-776bbbdd5f70",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1522x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e50f781-1103-41e4-b53b-23fc1092a129",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-wrapper > input",
+      "targets": [
+        ["css=.input-wrapper > input", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[2]/section/div/div/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e7fdf69-2641-43ce-b009-5596395fe796",
+      "comment": "",
+      "command": "type",
+      "target": "css=.input-wrapper > input",
+      "targets": [
+        ["css=.input-wrapper > input", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[2]/section/div/div/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Zürich"
+    }, {
+      "id": "157253a5-fa07-47f5-8e77-37300bafb96f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\32 16-suggestions-suggestion-40875 .flex",
+      "targets": [
+        ["css=#\\32 16-suggestions-suggestion-40875 .flex", "css:finder"],
+        ["xpath=//li[@id='216-suggestions-suggestion-40875']/div/div", "xpath:idRelative"],
+        ["xpath=//li/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6f6db41-a1dc-441c-9c75-6a9b99ba870c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.justify-end > .inline-flex",
+      "targets": [
+        ["css=.justify-end > .inline-flex", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/section/div/div/div/div[2]/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'1225 Treffer anzeigen!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c181d66d-639d-4a23-986e-8e778d68d281",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(1) > .flex > .hidden > .relative:nth-child(1) > .object-cover",
+      "targets": [
+        ["css=div:nth-child(1) > .flex > .hidden > .relative:nth-child(1) > .object-cover", "css:finder"],
+        ["xpath=(//img[@alt='20230710_BS0105_Ho?ngg_Terrasse_INT'])[2]", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div[2]/section/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d03abaf-da94-4302-8be1-cf7f3fc54f03",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,19)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87a86417-0533-49eb-b2e6-9cd610420d05",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=div:nth-child(1) > .flex > .hidden > .relative:nth-child(1) > .object-cover",
+      "targets": [
+        ["css=div:nth-child(1) > .flex > .hidden > .relative:nth-child(1) > .object-cover", "css:finder"],
+        ["xpath=(//img[@alt='20230710_BS0105_Ho?ngg_Terrasse_INT'])[2]", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div[2]/section/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d66e671-e4a7-48eb-936b-26e3a22caf5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .flex > .relative > .hidden > .w-full",
+      "targets": [
+        ["css=div:nth-child(1) > .flex > .relative > .hidden > .w-full", "css:finder"],
+        ["xpath=//img[@alt='Überbauung Im alte Räbberg']", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div[2]/section/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a445e0d4-1147-40c6-b59b-4a324f7567dd",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Zürich",
+      "targets": [
+        ["linkText=Zürich", "linkText"],
+        ["css=dd > .hover\\3Atext-green:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Zürich')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div[2]/div/div[2]/div/div[6]/dl[4]/dd/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kaufen/?alternate=true&cities=Z%C3%BCrich&exclusive=false&ignoreToplisting=false&mainCategory=apartment_and_house&numberOfRoomsFrom=0&numberOfRoomsTo=10&offerType=sale&orderBy=created&order=desc&page=1&priceFrom=0&priceTo=25000000&radius=5&surfaceLivingFrom=0&surfaceLivingTo=300&type=all')]", "xpath:href"],
+        ["xpath=//dl[4]/dd/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Zürich')]", "xpath:innerText"]
+      ],
+      "value": "Zürich"
+    }, {
+      "id": "8bfef522-0dd2-4519-a4e2-db2237a9be2e",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Zürich",
+      "targets": [
+        ["linkText=Zürich", "linkText"],
+        ["css=dd > .hover\\3Atext-green:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Zürich')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div[2]/div/div[2]/div/div[6]/dl[4]/dd/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kaufen/?alternate=true&cities=Z%C3%BCrich&exclusive=false&ignoreToplisting=false&mainCategory=apartment_and_house&numberOfRoomsFrom=0&numberOfRoomsTo=10&offerType=sale&orderBy=created&order=desc&page=1&priceFrom=0&priceTo=25000000&radius=5&surfaceLivingFrom=0&surfaceLivingTo=300&type=all')]", "xpath:href"],
+        ["xpath=//dl[4]/dd/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Zürich')]", "xpath:innerText"]
+      ],
+      "value": "Zrich"
+    }]
+  }],
+  "suites": [{
+    "id": "d9e8c43f-8d5b-4349-99d6-a8f821ec934e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4179591f-96b6-4883-97ad-0dd105312755"]
+  }],
+  "urls": ["https://www.neubauprojekte.ch/"],
+  "plugins": []
+}

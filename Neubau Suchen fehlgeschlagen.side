@@ -1,0 +1,141 @@
+{
+  "id": "81649f1d-04aa-415e-990b-219c604769c6",
+  "version": "2.0",
+  "name": "Neubau Suchen",
+  "url": "https://www.neubauprojekte.ch",
+  "tests": [{
+    "id": "2b271fa5-b834-414c-9818-c9d12183c861",
+    "name": "Suche Zürich",
+    "commands": [{
+      "id": "ee3cf60e-41e3-46c9-b6f6-9901123231b2",
+      "comment": "",
+      "command": "open",
+      "target": "/kaufen/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb56ac3b-c84c-4f4c-bf37-86405f85d759",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1522x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30bea134-de6d-403c-9841-a9b8f2619283",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-wrapper > input",
+      "targets": [
+        ["css=.input-wrapper > input", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[2]/section/div/div/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e02a9785-bda1-462c-b9f2-f21f946dec97",
+      "comment": "",
+      "command": "type",
+      "target": "css=.input-wrapper > input",
+      "targets": [
+        ["css=.input-wrapper > input", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[2]/section/div/div/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Zürich"
+    }, {
+      "id": "ce34031a-1b78-4791-9306-70383ecd294d",
+      "comment": "",
+      "command": "click",
+      "target": "id=216-suggestions-suggestion-24177",
+      "targets": [
+        ["id=216-suggestions-suggestion-24177", "id"],
+        ["css=#\\32 16-suggestions-suggestion-24177", "css:finder"],
+        ["xpath=//li[@id='216-suggestions-suggestion-24177']", "xpath:attributes"],
+        ["xpath=//ul[@id='216-suggestions']/li[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bfb7afd-8384-460e-ada4-88c9ab2e777d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.justify-end > .inline-flex",
+      "targets": [
+        ["css=.justify-end > .inline-flex", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/section/div/div/div/div[2]/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'215 Treffer anzeigen!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f180cce2-1d7e-4d72-9962-19ca6756989b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.justify-end > .inline-flex",
+      "targets": [
+        ["css=.justify-end > .inline-flex", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/section/div/div/div/div[2]/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'215 Treffer anzeigen!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f2927b8-a218-45fe-bb16-a6b6191fa965",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Über uns",
+      "targets": [
+        ["linkText=Über uns", "linkText"],
+        ["css=div:nth-child(2) > .pb-2 > div:nth-child(1) > .hover\\3Atext-green", "css:finder"],
+        ["xpath=(//a[contains(text(),'Über uns')])[2]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/footer/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ueber-uns')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88413ccf-c12b-4101-9fc3-31542df5d479",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,19)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfd5edc4-d631-494c-b213-d979ebc153a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=section:nth-child(4) div:nth-child(2) > .border-b .block",
+      "targets": [
+        ["css=section:nth-child(4) div:nth-child(2) > .border-b .block", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.neubauprojekte.ch/wp-content/plugins/neubauportal/import/image_server/small/d1c5556a-a01c-3dc5-7ae2-bc7debe3472b.jpeg')]", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/div[2]/section[2]/div/div/div[2]/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24af6b26-0b6f-4c39-a889-32bf6488e802",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(1) > .flex > .relative > .hidden > .w-full",
+      "targets": [
+        ["css=div:nth-child(1) > .flex > .relative > .hidden > .w-full", "css:finder"],
+        ["xpath=//img[@alt='Aussenansicht']", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div[2]/section/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "109a623f-7d9d-49df-a2f5-4700af38621e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2b271fa5-b834-414c-9818-c9d12183c861"]
+  }],
+  "urls": ["https://www.neubauprojekte.ch/"],
+  "plugins": []
+}
